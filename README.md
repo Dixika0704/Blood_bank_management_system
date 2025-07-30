@@ -29,13 +29,13 @@ A web-based Blood Bank Management System built with *HTML* and *CSS* for the fro
 2. Import the bloodbank.sql file from the /database folder to set up tables.
 3. Update your connection.jsp file with your MySQL credentials:
 
-<%
+/<%
 String url = "jdbc:mysql://localhost:3306/bloodbank";
 String username = "root";
 String password = "your_password";
 Class.forName("com.mysql.jdbc.Driver");
 Connection conn = DriverManager.getConnection(url, username, password);
-%>
+%>/
 
 ---
 
